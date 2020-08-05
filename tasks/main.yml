@@ -13,8 +13,8 @@
 - name: Set supported_os to false if fact not defined
   set_fact:
     key_value: "" # appeasing the linter
-    supported_os: false
-  when: supported_os is not defined
+    supported_os: true
+  # when: supported_os is not defined
 
 - name: Debug supported os
   debug:
