@@ -52,6 +52,7 @@ app_protect_tempdir: /tmp
 app_protect_linux_families:
   CentOS:
     - 7.4
+    - 7.4.1708
     - 7.5
     - 7.6
     - 7.7
